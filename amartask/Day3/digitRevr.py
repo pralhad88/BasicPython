@@ -1,3 +1,5 @@
+# This is a first methode to find out the answer but there is one drawback with a zero number according to the problem statement so second methode is applicable for     that one.
+
 x=input("Input: ")
 contact=''
 a=[]
@@ -10,6 +12,8 @@ for i in range(len(x)-1,-1,-1):
 	else:
 		contact=contact+x[i]
 print(contact)
+
+# this is a second methode to solve the question based on mathematical logic and it gives accurate answer. 
 
 def reverse_number(fac):
     r = 0

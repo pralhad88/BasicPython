@@ -1,5 +1,5 @@
-input1=int(input("Input: "))
-if input1==0:
+input1 = int(input("Input: "))
+if input1 == 0:
 	print("Kuch Nahi")
 a=0
 b=1
